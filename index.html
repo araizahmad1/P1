@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DecodeLabs — Where developers evolve. Join our internship program and build your full-stack portfolio with real-world projects." />
+  <meta name="keywords" content="DecodeLabs, internship, web development, frontend, full-stack, portfolio" />
+  <meta name="author" content="DecodeLabs" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="DecodeLabs — Internship Program" />
+  <meta property="og:description" content="Build your full-stack portfolio with real-world projects." />
+  <meta property="og:type"        content="website" />
+
+  <title>DecodeLabs — Where Developers Evolve</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23A07850'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='900' font-size='16' fill='%230F0F14'>DL</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════
+       ACCESSIBILITY
+  ══════════════════════════════════ -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Reading progress bar -->
+  <div class="progress-bar" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+  <!-- Cursor glow effect (desktop) -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+
+  <!-- ══════════════════════════════════
+       HEADER / NAVIGATION
+  ══════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="nav-inner" role="navigation" aria-label="Main Navigation">
+
+        <!-- Logo -->
+        <a href="#" class="nav-logo" aria-label="DecodeLabs — Home">
+          <div class="nav-logo-mark" aria-hidden="true">DL</div>
+          <span class="nav-logo-text">Decode<span>Labs</span></span>
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu" id="nav-menu" role="list">
+          <li role="listitem"><a href="#about"    class="nav-link" aria-label="About section">About</a></li>
+          <li role="listitem"><a href="#features" class="nav-link" aria-label="Features section">Features</a></li>
+          <li role="listitem"><a href="#process"  class="nav-link" aria-label="Process section">Process</a></li>
+          <li role="listitem"><a href="#team"     class="nav-link" aria-label="Team section">Team</a></li>
+          <li role="listitem"><a href="#contact"  class="nav-link" aria-label="Contact section">Contact</a></li>
+        </ul>
+
+        <!-- Right side: theme toggle + CTA + hamburger -->
+        <div class="flex flex-align gap-sm">
+          <button
+            class="theme-toggle btn btn-ghost btn-sm"
+            aria-label="Switch to light mode"
+            title="Toggle theme"
+          >☀</button>
+
+          <a href="#contact" class="btn btn-primary btn-sm" style="display:none" id="nav-cta">
+            Apply Now
+          </a>
+
+          <!-- Hamburger (mobile only) -->
+          <button
+            class="hamburger"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ══════════════════════════════════
+       MAIN CONTENT
+  ══════════════════════════════════ -->
+  <main role="main" id="main-content">
+
+
+    <!-- ── HERO ─────────────────────── -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Content -->
+          <div class="hero-content">
+            <div class="hero-badge" aria-label="Program status: Applications open">
+              <span class="dot" aria-hidden="true"></span>
+              Applications Open — Cohort 2025
+            </div>
+
+            <h1 id="hero-heading">
+              Where<br/>
+              <em style="color: var(--color-accent)">Developers</em><br/>
+              <span style="font-weight:300">Evolve.</span>
+            </h1>
+
+            <p class="lead">
+              DecodeLabs Internship Program — build a production-quality
+              full-stack portfolio through six real-world projects. No fluff,
+              no filler. Just craft.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact"  class="btn btn-primary btn-lg" aria-label="Apply for the internship program">
+                Apply for Free →
+              </a>
+              <a href="#process"  class="btn btn-secondary btn-lg" aria-label="Learn about the program">
+                How It Works
+              </a>
+            </div>
+
+            <!-- Social proof -->
+            <div class="flex flex-align gap-md" style="margin-top: var(--space-xl)">
+              <div class="flex" style="gap: -8px" aria-label="200 plus developers enrolled">
+                <span style="font-size: var(--text-sm); color: var(--color-text-muted)">
+                  <strong style="color: var(--color-accent)">200+</strong> developers enrolled
+                </span>
+              </div>
+              <span style="color: var(--color-text-dim)">·</span>
+              <span style="font-size: var(--text-sm); color: var(--color-text-muted)">
+                <strong style="color: var(--color-accent)">92%</strong> badge completion rate
+              </span>
+            </div>
+          </div>
+
+          <!-- Visual Mock -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card-mock" role="img" aria-label="Dashboard preview illustration">
+              <div class="mock-header">
+                <div class="mock-dots">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                </div>
+                <span class="mock-title">decodelabs — project-1/index.html</span>
+              </div>
+
+              <div class="mock-line accent w-3-4"></div>
+              <div class="mock-line w-full"></div>
+              <div class="mock-line w-1-2"></div>
+
+              <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px;">
+                <div class="mock-line blue tall" style="border-radius:8px"></div>
+                <div class="mock-line accent tall" style="border-radius:8px; animation-delay:.3s"></div>
+              </div>
+
+              <div style="display:flex; gap:8px; margin-top:16px">
+                <div class="mock-line w-1-3" style="height:32px;border-radius:6px;background:rgba(160,120,80,.3)"></div>
+                <div class="mock-line w-1-3" style="height:32px;border-radius:6px;background:rgba(74,144,217,.2)"></div>
+              </div>
+
+              <!-- Badge -->
+              <div style="
+                position: absolute;
+                top: -14px; right: -14px;
+                background: var(--color-bg-3);
+                border: 1px solid var(--color-border-strong);
+                border-radius: var(--radius-lg);
+                padding: 10px 14px;
+                font-size: var(--text-xs);
+                font-family: var(--font-label);
+                font-weight: 700;
+                color: var(--color-accent);
+                box-shadow: var(--shadow-lg);
+                letter-spacing: .05em;
+              ">
+                ✦ Project 1 Complete
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Background decorative elements -->
+      <div aria-hidden="true" style="
+        position: absolute; top: 20%; right: 5%;
+        width: 300px; height: 300px;
+        background: radial-gradient(circle, rgba(74,144,217,0.06) 0%, transparent 70%);
+        border-radius: 50%; pointer-events: none;
+      "></div>
+    </section>
+
+
+    <!-- ── STATS ─────────────────────── -->
+    <section aria-labelledby="stats-heading" id="about">
+      <div class="container">
+        <div class="stats-grid">
+
+          <article class="stat-card animate-on-scroll">
+            <div class="stat-number" data-target="200" data-suffix="+" aria-label="200 plus interns trained">200+</div>
+            <div class="stat-label">Interns Trained</div>
+          </article>
+
+          <article class="stat-card animate-on-scroll delay-1">
+            <div class="stat-number" data-target="6" aria-label="6 real world projects">6</div>
+            <div class="stat-label">Real Projects</div>
+          </article>
+
+          <article class="stat-card animate-on-scroll delay-2">
+            <div class="stat-number" data-target="92" data-suffix="%" aria-label="92 percent badge completion">92%</div>
+            <div class="stat-label">Badge Completion</div>
+          </article>
+
+          <article class="stat-card animate-on-scroll delay-3">
+            <div class="stat-number" data-target="4.9" data-suffix="★" aria-label="4.9 star rating">4.9★</div>
+            <div class="stat-label">Program Rating</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── FEATURES ──────────────────── -->
+    <section aria-labelledby="features-heading" id="features">
+      <div class="container">
+
+        <header class="section-header center animate-on-scroll">
+          <span class="label" aria-hidden="true">What You'll Build</span>
+          <h2 id="features-heading">Six Projects. One Portfolio.</h2>
+          <div class="section-divider center" aria-hidden="true"></div>
+          <p>Each project is a carefully designed milestone that teaches a specific layer of the modern web stack — from pixels to production.</p>
+        </header>
+
+        <div class="features-grid">
+
+          <article class="card feature-card animate-on-scroll delay-1" aria-labelledby="f1-heading">
+            <div class="feature-icon" aria-hidden="true">🎨</div>
+            <h3 id="f1-heading">Project 1 — Responsive UI</h3>
+            <p>Build a fully responsive frontend using semantic HTML5, CSS Grid, Flexbox, and vanilla JavaScript. Mobile-first, accessible, production-grade.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-gold">Current</span>
+              <span class="badge badge-green">Active</span>
+            </div>
+          </article>
+
+          <article class="card feature-card animate-on-scroll delay-2" aria-labelledby="f2-heading">
+            <div class="feature-icon" aria-hidden="true">⚙️</div>
+            <h3 id="f2-heading">Project 2 — Backend API</h3>
+            <p>Design and build a RESTful API with Node.js and Express. Authentication, validation, error handling, and API documentation.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-blue">Locked</span>
+            </div>
+          </article>
+
+          <article class="card feature-card animate-on-scroll delay-3" aria-labelledby="f3-heading">
+            <div class="feature-icon" aria-hidden="true">🗄️</div>
+            <h3 id="f3-heading">Project 3 — Database Design</h3>
+            <p>Model, migrate, and query relational databases using PostgreSQL. Learn schema design, indexing, and query optimization.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-blue">Locked</span>
+            </div>
+          </article>
+
+          <article class="card feature-card animate-on-scroll delay-1" aria-labelledby="f4-heading">
+            <div class="feature-icon" aria-hidden="true">⚛️</div>
+            <h3 id="f4-heading">Project 4 — React Application</h3>
+            <p>Build a dynamic single-page application with React, state management, hooks, and component architecture best practices.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-blue">Locked</span>
+            </div>
+          </article>
+
+          <article class="card feature-card animate-on-scroll delay-2" aria-labelledby="f5-heading">
+            <div class="feature-icon" aria-hidden="true">🔗</div>
+            <h3 id="f5-heading">Project 5 — Full-Stack Integration</h3>
+            <p>Connect your frontend and backend into a cohesive full-stack application. Deploy to cloud infrastructure with CI/CD pipelines.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-blue">Locked</span>
+            </div>
+          </article>
+
+          <article class="card feature-card animate-on-scroll delay-3" aria-labelledby="f6-heading">
+            <div class="feature-icon" aria-hidden="true">🏆</div>
+            <h3 id="f6-heading">Project 6 — Capstone</h3>
+            <p>Architect and ship a complete product from zero to production. Define the spec, build the MVP, and present to the DecodeLabs panel.</p>
+            <div class="flex flex-align gap-sm" style="margin-top: auto; padding-top: var(--space-md)">
+              <span class="badge badge-blue">Locked</span>
+              <span class="badge badge-gold">Badge</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── PROCESS ────────────────────── -->
+    <section aria-labelledby="process-heading" id="process" style="background: rgba(26,26,46,0.3)">
+      <div class="container">
+
+        <header class="section-header center animate-on-scroll">
+          <span class="label" aria-hidden="true">How It Works</span>
+          <h2 id="process-heading">The Six-Step Execution Roadmap</h2>
+          <div class="section-divider center" aria-hidden="true"></div>
+          <p>Every project follows the same battle-tested methodology used by professional development teams worldwide.</p>
+        </header>
+
+        <div class="steps-grid">
+
+          <article class="step-card animate-on-scroll delay-1" aria-labelledby="s1-heading">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-icon" aria-hidden="true">🔍</div>
+            <h3 id="s1-heading">Discovery</h3>
+            <p style="font-size: var(--text-sm)">Define the user, their needs, and the problem. Write a user story before writing a single line of code.</p>
+          </article>
+
+          <article class="step-card animate-on-scroll delay-2" aria-labelledby="s2-heading">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-icon" aria-hidden="true">✏️</div>
+            <h3 id="s2-heading">Wireframing</h3>
+            <p style="font-size: var(--text-sm)">Create grayscale low-fidelity wireframes. Mobile layout first, then tablet and desktop. Focus on hierarchy and flow.</p>
+          </article>
+
+          <article class="step-card animate-on-scroll delay-3" aria-labelledby="s3-heading">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-icon" aria-hidden="true">🏗️</div>
+            <h3 id="s3-heading">Semantics</h3>
+            <p style="font-size: var(--text-sm)">Build the HTML skeleton with proper semantic tags and ARIA attributes. Validate with W3C before styling.</p>
+          </article>
+
+          <article class="step-card animate-on-scroll delay-1" aria-labelledby="s4-heading">
+            <div class="step-number" aria-hidden="true">04</div>
+            <div class="step-icon" aria-hidden="true">🎨</div>
+            <h3 id="s4-heading">Style</h3>
+            <p style="font-size: var(--text-sm)">Apply the design system using CSS variables. Write mobile styles first, then expand with media queries.</p>
+          </article>
+
+          <article class="step-card animate-on-scroll delay-2" aria-labelledby="s5-heading">
+            <div class="step-number" aria-hidden="true">05</div>
+            <div class="step-icon" aria-hidden="true">⚙️</div>
+            <h3 id="s5-heading">Logic</h3>
+            <p style="font-size: var(--text-sm)">Add JavaScript interactivity: navigation toggle, smooth scroll, form validation, and scroll animations.</p>
+          </article>
+
+          <article class="step-card animate-on-scroll delay-3" aria-labelledby="s6-heading">
+            <div class="step-number" aria-hidden="true">06</div>
+            <div class="step-icon" aria-hidden="true">✅</div>
+            <h3 id="s6-heading">Audit</h3>
+            <p style="font-size: var(--text-sm)">Performance, accessibility, responsiveness, and code quality checks. PageSpeed 90+, WCAG 2.1 AA compliant.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── TEAM ───────────────────────── -->
+    <section aria-labelledby="team-heading" id="team">
+      <div class="container">
+
+        <header class="section-header center animate-on-scroll">
+          <span class="label" aria-hidden="true">The People</span>
+          <h2 id="team-heading">Built by Practitioners</h2>
+          <div class="section-divider center" aria-hidden="true"></div>
+          <p>Our mentors are working professionals — not just instructors. Every piece of feedback comes from real production experience.</p>
+        </header>
+
+        <div class="team-grid">
+
+          <article class="team-card animate-on-scroll delay-1" aria-labelledby="t1-name">
+            <div class="team-avatar" aria-hidden="true" style="background: linear-gradient(135deg, rgba(160,120,80,0.3), rgba(201,168,76,0.1))">
+              <span style="position:relative;z-index:1;font-size:2.5rem">👨‍💻</span>
+            </div>
+            <div class="team-info">
+              <h4 id="t1-name">Arham Khalid</h4>
+              <div class="team-role">Lead Mentor · Frontend</div>
+            </div>
+          </article>
+
+          <article class="team-card animate-on-scroll delay-2" aria-labelledby="t2-name">
+            <div class="team-avatar" aria-hidden="true" style="background: linear-gradient(135deg, rgba(74,144,217,0.3), rgba(74,144,217,0.1))">
+              <span style="position:relative;z-index:1;font-size:2.5rem">👩‍💻</span>
+            </div>
+            <div class="team-info">
+              <h4 id="t2-name">Sara Malik</h4>
+              <div class="team-role">Mentor · Backend</div>
+            </div>
+          </article>
+
+          <article class="team-card animate-on-scroll delay-3" aria-labelledby="t3-name">
+            <div class="team-avatar" aria-hidden="true" style="background: linear-gradient(135deg, rgba(46,204,113,0.25), rgba(46,204,113,0.08))">
+              <span style="position:relative;z-index:1;font-size:2.5rem">🧑‍🎨</span>
+            </div>
+            <div class="team-info">
+              <h4 id="t3-name">Zaid Hassan</h4>
+              <div class="team-role">Mentor · UI/UX</div>
+            </div>
+          </article>
+
+          <article class="team-card animate-on-scroll delay-4" aria-labelledby="t4-name">
+            <div class="team-avatar" aria-hidden="true" style="background: linear-gradient(135deg, rgba(201,168,76,0.2), rgba(160,120,80,0.1))">
+              <span style="position:relative;z-index:1;font-size:2.5rem">👩‍🏫</span>
+            </div>
+            <div class="team-info">
+              <h4 id="t4-name">Hira Baig</h4>
+              <div class="team-role">Program Director</div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── CONTACT ────────────────────── -->
+    <section aria-labelledby="contact-heading" id="contact" style="background: rgba(26,26,46,0.3)">
+      <div class="container">
+
+        <header class="section-header animate-on-scroll">
+          <span class="label" aria-hidden="true">Get In Touch</span>
+          <h2 id="contact-heading">Ready to Start?</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+          <p>Apply for the DecodeLabs Internship Program and begin Project 1 today. No prior experience required — just commitment.</p>
+        </header>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <aside class="animate-on-scroll" aria-label="Contact information">
+            <div class="contact-info-item">
+              <div class="contact-icon" aria-hidden="true">📧</div>
+              <div>
+                <div class="label" style="margin-bottom:4px">Email</div>
+                <a href="mailto:hello@decodelabs.dev" style="color:var(--color-text-muted); font-size:var(--text-sm)">
+                  hello@decodelabs.dev
+                </a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon" aria-hidden="true">💬</div>
+              <div>
+                <div class="label" style="margin-bottom:4px">Discord</div>
+                <span style="color:var(--color-text-muted); font-size:var(--text-sm)">discord.gg/decodelabs</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="label" style="margin-bottom:4px">Location</div>
+                <span style="color:var(--color-text-muted); font-size:var(--text-sm)">Remote — Worldwide</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon" aria-hidden="true">🕐</div>
+              <div>
+                <div class="label" style="margin-bottom:4px">Response Time</div>
+                <span style="color:var(--color-text-muted); font-size:var(--text-sm)">Within 24 hours</span>
+              </div>
+            </div>
+
+            <!-- Tech Stack Tags -->
+            <div style="margin-top: var(--space-lg)">
+              <div class="label" style="margin-bottom: var(--space-md)">Tech You'll Master</div>
+              <div class="flex flex-wrap gap-sm">
+                <span class="badge badge-primary">HTML5</span>
+                <span class="badge badge-blue">CSS3</span>
+                <span class="badge badge-gold">JavaScript</span>
+                <span class="badge badge-green">Node.js</span>
+                <span class="badge badge-primary">React</span>
+                <span class="badge badge-blue">PostgreSQL</span>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Contact Form -->
+          <div class="animate-on-scroll delay-2">
+            <form
+              id="contact-form"
+              class="card"
+              novalidate
+              aria-label="Application form"
+            >
+              <div style="margin-bottom: var(--space-lg)">
+                <h3 style="font-size: var(--text-md); margin-bottom: var(--space-xs)">Apply Now</h3>
+                <p style="font-size: var(--text-sm); margin:0">Fill out the form and we'll get back to you within 24 hours.</p>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr; gap:0">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name <span aria-label="required" style="color:var(--color-error)">*</span></label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Arham Khalid"
+                    required
+                    minlength="2"
+                    autocomplete="name"
+                    aria-required="true"
+                    aria-describedby="name-error"
+                  />
+                  <span id="name-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address <span aria-label="required" style="color:var(--color-error)">*</span></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="you@email.com"
+                    required
+                    autocomplete="email"
+                    aria-required="true"
+                    aria-describedby="email-error"
+                  />
+                  <span id="email-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Experience Level -->
+                <div class="form-group">
+                  <label for="level" class="form-label">Experience Level <span aria-label="required" style="color:var(--color-error)">*</span></label>
+                  <select
+                    id="level"
+                    name="level"
+                    class="form-select form-input"
+                    required
+                    aria-required="true"
+                    aria-describedby="level-error"
+                  >
+                    <option value="" disabled selected>Select your level</option>
+                    <option value="beginner">Beginner — I'm just starting out</option>
+                    <option value="intermediate">Intermediate — I know the basics</option>
+                    <option value="advanced">Advanced — I have project experience</option>
+                  </select>
+                  <span id="level-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                  <label for="message" class="form-label">Why do you want to join? <span aria-label="required" style="color:var(--color-error)">*</span></label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    placeholder="Tell us your goals and what you hope to build..."
+                    required
+                    minlength="20"
+                    rows="4"
+                    aria-required="true"
+                    aria-describedby="message-error"
+                  ></textarea>
+                  <span id="message-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg"
+                style="width:100%; margin-top: var(--space-sm)"
+                aria-label="Submit application"
+              >
+                Send Application →
+              </button>
+
+              <p style="font-size:var(--text-xs); color:var(--color-text-dim); text-align:center; margin-top:var(--space-md); margin-bottom:0">
+                Free program · No credit card required · Applications reviewed within 24hrs
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main><!-- end main -->
+
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo" aria-label="Site footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#" class="nav-logo" aria-label="DecodeLabs home">
+            <div class="nav-logo-mark" aria-hidden="true">DL</div>
+            <span class="nav-logo-text">Decode<span>Labs</span></span>
+          </a>
+          <p>Building the next generation of full-stack developers — one project at a time.</p>
+        </div>
+
+        <!-- Program Links -->
+        <nav aria-label="Program navigation">
+          <div class="footer-heading">Program</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#features" class="footer-link">Projects</a></li>
+            <li><a href="#process"  class="footer-link">Process</a></li>
+            <li><a href="#team"     class="footer-link">Mentors</a></li>
+            <li><a href="#contact"  class="footer-link">Apply</a></li>
+          </ul>
+        </nav>
+
+        <!-- Resources -->
+        <nav aria-label="Resources navigation">
+          <div class="footer-heading">Resources</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#" class="footer-link">Documentation</a></li>
+            <li><a href="#" class="footer-link">Style Guide</a></li>
+            <li><a href="#" class="footer-link">GitHub</a></li>
+            <li><a href="#" class="footer-link">Discord</a></li>
+          </ul>
+        </nav>
+
+        <!-- Legal -->
+        <nav aria-label="Legal navigation">
+          <div class="footer-heading">Legal</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Terms of Use</a></li>
+            <li><a href="#" class="footer-link">Code of Conduct</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <span>© 2025 DecodeLabs. All rights reserved.</span>
+        <span>Built with HTML5 · CSS3 · Vanilla JS — No frameworks.</span>
+        <span style="color: var(--color-accent)">Project 1 of 6 ✦</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════
+       TOAST NOTIFICATION
+  ══════════════════════════════════ -->
+  <div
+    id="toast"
+    class="toast"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+  >
+    <span class="toast-icon" aria-hidden="true">✓</span>
+    <span class="toast-text"></span>
+    <button class="toast-close" aria-label="Close notification">✕</button>
+  </div>
+
+
+  <!-- JavaScript — deferred -->
+  <script src="js/app.js" defer></script>
+
+</body>
+</html>
